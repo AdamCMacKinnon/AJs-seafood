@@ -49,23 +49,30 @@
 }
 
 
-.row1 {
+.row {
 
     display: flex;
     flex-direction: row;
-    height: 100%
+    padding: 10px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .card {
 margin-top: 20px;
 margin-bottom: 10px;
 display: block;
+width: 100%;
+height: 280px;
 }
 
 .card-img-top {
-    width: 80%;
-    height: 200px;
+    width: 200px;
+    height: 50%;
 }
 .card-body {
     background-color: #F4A261;
+    height: 20px;
 }

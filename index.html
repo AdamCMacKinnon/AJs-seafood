@@ -16,7 +16,7 @@
     <div class="header position-relative top">
       <div class="position-absolute top text-white h-100 w-100 d-flex flex-column justify-content-center align-items-center">
         <div class="display-3 text- z20">AJ's Seafood and Po' Boys</div>
-        <button type="button" class="btn btn-warning z20">Location and Hours</button>
+        <button type="button" href="hourslocations.html" class="btn btn-warning z20" >Location and Hours</button>
   <div class="position-absolute z15 top bg-black w-100 h-100 opacity"></div>
       </div>
   <div class="">
@@ -24,31 +24,32 @@
   </div>    
     </div> <!--END OF HEADER-->
 
-      <p>
-        <a class="btn btn-danger" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Drink Specials</a>
-        <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Food Specials</button>
-      </p>
-      <div class="toggleRow">
-        <div class="col-12 d-flex justify-content: center">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div class="text-white bg-darkGreen">
-              AJ's special Margarita! $7.50
-            </div>
-          </div>
-        </div>
-        <div class="col-12 d-flex justify-content: center">
-          <div class="collapse multi-collapse" id="multiCollapseExample2">
-            <div class="text-white bg-darkGreen">
-              Scallop Po'Boy, blackened with AJ's sauce. $9
-            </div>
+    <div class="row">
+      <a class="btn btn-danger" data-toggle="collapse" href="#drinkSpecials" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Drink Specials</a>
+      <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#foodSpecials" aria-expanded="false" aria-controls="multiCollapseExample2">Food Specials</button>
+      <button class="btn btn-danger" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">All Specials</button>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="drinkSpecials">
+          <div class="text-white bg-darkGreen">
+            AJ's Special Margarita!  $7.50
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="foodSpecials">
+          <div class="text-white bg-darkGreen">
+            Scallop Po Boy, blackened with french fries. $9.50
+          </div>
+        </div>
+      </div>
+    </div>
   
   <main>
-    <div class="row1">
-      <div class="col-md-4 d-flex">
-        <div class="card" style="width: 18rem;">
+    <div class="row">
+      <div class="col-md-4 col-12 d-flex">
+        <div class="card">
           <img class="card-img-top" src="images/barfront.jpg" alt="Front Bar">
           <div class="card-body">
             <h5 class="card-title">Our Story</h5>
@@ -56,8 +57,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-flex">
-        <div class="card" style="width: 18rem;">
+      <div class="col-md-4 col-12 d-flex">
+        <div class="card">
           <img class="card-img-top" src="images/poboy.jpg" alt="Front Bar">
           <div class="card-body">
             <h5 class="card-title">Dining Room Menu</h5>
@@ -66,7 +67,7 @@
         </div>
       </div>
       <div class="col-md-4 d-flex">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <img class="card-img-top" src="images/oystersgumbowine.jpg" alt="Front Bar">
           <div class="card-body">
             <h5 class="card-title">Oyster Bar</h5>
